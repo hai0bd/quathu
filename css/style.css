@@ -69,7 +69,7 @@ header h4 {
 
 @media only screen and (max-width: 500px) {
     header h2 {
-        max-width: 50px;
+       /* max-width: 50px;*/
         font-family: 'Pacifico';
         font-size: 45px;
         text-align: center;
