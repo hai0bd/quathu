@@ -1,0 +1,105 @@
+.content {
+    line-height: 2px;
+    position: relative;
+    z-index: 3;
+}
+
+#desck {
+    text-align: right;
+    max-width: 87%;
+}
+
+#no {
+    position: absolute;
+    display: inline-block;
+    left: 25%;
+    /*top: 40vh;*/
+    -webkit-transition: all 0.1s ease-out;
+}
+
+#yes {
+    position: absolute;
+    display: inline-block;
+    left: 60%;
+    /*top: 40vh;*/
+    -webkit-transition: all 0.3s ease-out;
+}
+
+#bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .8;
+    line-height: 5px;
+    z-index: 0;
+    background-image: url(https://cdn.glitch.com/ae79efc2-e884-430f-8d5f-7e2d52a75745%2FIMG_0668.JPG?v=1630727623323);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50%;
+   /* -webkit-filter: blur(0px);*/
+}
+
+.swal2-image {
+    object-fit: contain;
+}
+
+.swal2-title,
+.swal2-content {
+    color: azure !important;
+}
+
+.swal2-popup {
+    border-radius: 15px !important;
+}
+
+header h2 {
+    font-family: 'Pacifico';
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h4 {
+    font-family: 'Pacifico';
+    text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+    header h2 {
+        max-width: 50px;
+        font-family: 'Pacifico';
+        font-size: 45px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    header h4 {
+        font-family: 'Pacifico';
+        text-align: center;
+        padding: 15px;
+    }
+    #no {
+        position: absolute;
+        display: inline-block;
+        left: 7%;
+        top: 40vh;
+        font-size: 14px;
+        padding: 3px;
+        -webkit-transition: all 0.1s ease-out;
+    }
+    #yes {
+        position: absolute;
+        display: inline-block;
+        left: 58%;
+        top: 40vh;
+        font-size: 14px;
+        padding: 3px;
+        -webkit-transition: all 0.3s ease-out;
+    }
+}
+
+.swal2-backdrop-show {
+    background-size: 200px 150px !important;
+}
